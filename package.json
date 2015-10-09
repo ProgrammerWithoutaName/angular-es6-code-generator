@@ -1,0 +1,32 @@
+{
+  "name": "angular-es6-code-generator",
+  "version": "0.0.1",
+  "description": "NPM Module for generating es6 files for angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProgrammerWithoutaName/angular-es6-code-generator.git"
+  },
+  "keywords": [
+    "angular",
+    "es6",
+    "scaffolding"
+  ],
+  "author": "ProgrammerWithoutAName",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ProgrammerWithoutaName/angular-es6-code-generator/issues"
+  },
+  "homepage": "https://github.com/ProgrammerWithoutaName/angular-es6-code-generator#readme",
+  "devDependencies": {
+    "jasmine": "^2.3.2",
+    "proxyquire": "^1.7.3"
+  },
+  "dependencies": {
+    "esprima": "^2.6.0",
+    "fs-promise": "^0.3.1"
+  }
+}

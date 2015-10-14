@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40dc909f-392b-4b6f-98a3-04bd8f050034" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/baseTypes/constant/angularConstantDefinition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/baseTypes/constant/angularConstantDefinition.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/angular_es6_code_generator_node_modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="DELETED" beforePath="C:\development\open\angular-es6-code-generator\lib\baseTypes\constant\angularConstantDefinition.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\open\angular-es6-code-generator\lib\baseTypes\constant\angularConstantDefinition.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\open\angular-es6-code-generator\lib\baseTypes\controller\angularControllerDefinition.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\development\open\angular-es6-code-generator\lib\baseTypes\controller\angularControllerDefinition.spec.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/sourceModifiers/expressionReflection.js" afterPath="$PROJECT_DIR$/lib/sourceModifiers/expressionReflection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/sourceModifiers/expressionReflection.spec.js" afterPath="$PROJECT_DIR$/lib/sourceModifiers/expressionReflection.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="angular-es6-code-generator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,73 +23,81 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="expressionReflection.js" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/lib/sourceModifiers/expressionReflection.js">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.33505687">
-                    <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="angular-es6-code-generator" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="angularControllerDefinition.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/baseTypes/controller/angularControllerDefinition.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0944057">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="angularConstantDefinition.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/baseTypes/constant/angularConstantDefinition.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="angularConstantDefinition.spec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/baseTypes/constant/angularConstantDefinition.spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="angularControllerDefinition.spec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/baseTypes/controller/angularControllerDefinition.spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="basicValueDefinition.spec.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/baseTypes/basicValueDefinition.spec.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="110" column="32" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="angularDefinitions.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lib/baseTypes/angularDefinitions.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.21377672">
+                  <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="buildAngularFile.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/baseTypes/buildAngularFile.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="basicFunctionDefinition.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/baseTypes/basicFunctionDefinition.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="basicFunctionDefinition.spec.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lib/baseTypes/basicFunctionDefinition.spec.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="92" column="51" selection-start-line="92" selection-start-column="51" selection-end-line="92" selection-end-column="51" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="basicValueDefinition.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lib/baseTypes/basicValueDefinition.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.09976247">
+                  <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -94,31 +105,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/lib/angularFileFormats.js" />
-        <option value="$PROJECT_DIR$/lib/angularFilenameFormats.js" />
-        <option value="$PROJECT_DIR$/lib/angularFilenameFormats.spec.js" />
-        <option value="$PROJECT_DIR$/spec/support/jasmine.json" />
-        <option value="$PROJECT_DIR$/lib/angularFilenameFormatters.js" />
-        <option value="$PROJECT_DIR$/lib/angularFilenameFormatters.spec.js" />
-        <option value="$PROJECT_DIR$/lib/stringUtilities.js" />
-        <option value="$PROJECT_DIR$/lib/stringUtilities.spec.js" />
-        <option value="$PROJECT_DIR$/spec/test.js" />
-        <option value="$PROJECT_DIR$/lib/sourceModifiers/expressionTypes.js" />
-        <option value="$PROJECT_DIR$/lib/sourceModifiers/expressionNameModifiers/injectName.js" />
         <option value="$PROJECT_DIR$/lib/sourceModifiers/functionNameModifier.spec.js" />
         <option value="$PROJECT_DIR$/lib/sourceModifiers/expressionNameModifiers/injectName.spec.js" />
         <option value="$PROJECT_DIR$/lib/sourceModifiers/expressionNameModifiers/replaceName.js" />
         <option value="$PROJECT_DIR$/lib/sourceModifiers/expressionNameModifiers/replaceName.spec.js" />
         <option value="$PROJECT_DIR$/lib/sourceModifiers/expressionReflection.js" />
-        <option value="$PROJECT_DIR$/lib/sourceModifiers/expressionReflection.spec.js" />
         <option value="$PROJECT_DIR$/lib/sourceModifiers/functionNameModifier.js" />
         <option value="$PROJECT_DIR$/lib/sourceModifiers/expressionNameModifier.js" />
         <option value="$PROJECT_DIR$/lib/sourceModifiers/expressionNameModifier.spec.js" />
-        <option value="$PROJECT_DIR$/lib/baseTypes/controller/angularControllerDefinition.js" />
+        <option value="$PROJECT_DIR$/lib/sourceModifiers/expressionReflection.spec.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/constant/angularConstantSourceTemplate.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/controller/angularControllerSourceTemplate.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/constant/angularConstantImplementationTemplate.spec.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/constant/constantImplementationTemplate.spec.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/controller/controllerImplementationTemplate.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/controller/controllerImplementationTemplate.spec.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/value/valueImplementationTemplate.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/value/valueImplementationTemplate.spec.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/constant/constantImplementationTemplate.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/service/serviceImplementationTemplate.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/service/serviceImplementationTemplate.spec.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/factory/factoryImplementationTemplate.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/functionImplementationTemplate.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/functionImplementationTemplate.spec.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/implementationTemplates/functionImplementationTemplate.spec.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/implementationTemplates/valueImplementationTemplate.spec.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/implementationTemplates/valueImplementationTemplate.js" />
         <option value="$PROJECT_DIR$/lib/baseTypes/constant/angularConstantDefinition.js" />
         <option value="$PROJECT_DIR$/lib/baseTypes/constant/angularConstantDefinition.spec.js" />
         <option value="$PROJECT_DIR$/lib/baseTypes/controller/angularControllerDefinition.spec.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/service/angularServiceDefinition.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/service/angularServiceDefinition.spec.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/value/angularValueDefinition.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/value/angularValueDefinition.spec.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/implementationTemplates/functionDeclarationTemplate.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/implementationTemplates/functionDeclarationTemplate.spec.js" />
+        <option value="$PROJECT_DIR$/lib/sourceModifiers/expressionDeclarationModifier.js" />
+        <option value="$PROJECT_DIR$/lib/sourceModifiers/expressionDeclarationModifier.spec.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/factory/angularFactoryDefinition.spec.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/factory/angularFactoryDefinition.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/filter/angularFilterDefinition.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/filter/angularFilterDefinition.spec.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/directive/angularDirectiveDefinition.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/directive/angularDirectiveDefinition.spec.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/basicTypeDefinition.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/basicFunctionDefinition.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/controller/angularControllerDefinition.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/basicFunctionDefinition.spec.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/basicValueDefinition.spec.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/basicValueDefinition.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/buildAngularFile.js" />
+        <option value="$PROJECT_DIR$/lib/baseTypes/angularDefinitions.js" />
       </list>
     </option>
   </component>
@@ -130,10 +167,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1050" />
+    <option name="x" value="1911" />
+    <option name="y" value="-1089" />
+    <option name="width" value="3858" />
+    <option name="height" value="2178" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -242,56 +279,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-es6-code-generator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-es6-code-generator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="baseTypes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-es6-code-generator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-es6-code-generator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="baseTypes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="constant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../olie2/smg.c3.olie2/Smg.C3.OLIE2.Web" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="JavaScriptLanguageLevel" value="ES6" />
@@ -306,6 +299,7 @@
       <recent name="C:\development\open\angular-es6-code-generator" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\development\open\angular-es6-code-generator\lib\baseTypes\implementationTemplates" />
       <recent name="C:\development\open\angular-es6-code-generator\lib" />
       <recent name="C:\development\open\angular-es6-code-generator\libs" />
     </key>
@@ -357,6 +351,9 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="40dc909f-392b-4b6f-98a3-04bd8f050034" name="Default" comment="" />
@@ -367,15 +364,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="1911" y="-1089" width="3858" height="2178" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24960423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12398427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36157635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -388,6 +385,33 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3858093" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24960423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991131" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -399,14 +423,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/sourceModifiers/expressionNameModifiers/injectName.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/sourceModifiers/expressionTypes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -447,14 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/baseTypes/constant/angularConstantDefinition.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/angularFilenameFormatters.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -478,13 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/stringUtilities.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.0">
@@ -496,14 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/sourceModifiers/expressionTypes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15734266">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -535,15 +528,15 @@
     <entry file="file://$PROJECT_DIR$/lib/sourceModifiers/expressionNameModifiers/replaceName.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="184" column="33" selection-start-line="184" selection-start-column="33" selection-end-line="184" selection-end-column="33" />
+          <caret line="257" column="3" selection-start-line="257" selection-start-column="3" selection-end-line="257" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/sourceModifiers/expressionReflection.js">
+    <entry file="file://$PROJECT_DIR$/lib/sourceModifiers/expressionNameModifier.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33505687">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="170" column="3" selection-start-line="170" selection-start-column="3" selection-end-line="170" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -551,7 +544,7 @@
     <entry file="file://$PROJECT_DIR$/lib/sourceModifiers/expressionReflection.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="58" />
+          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -567,7 +560,7 @@
     <entry file="file://$PROJECT_DIR$/lib/angularFilenameFormatters.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <caret line="57" column="3" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -575,7 +568,55 @@
     <entry file="file://$PROJECT_DIR$/lib/stringUtilities.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="25" />
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/stringUtilities.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/sourceModifiers/expressionTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/sourceModifiers/expressionReflection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.111685626">
+          <caret line="6" column="4" selection-start-line="0" selection-start-column="13" selection-end-line="15" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/baseTypes/implementationTemplates/functionImplementationTemplate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/baseTypes/implementationTemplates/valueImplementationTemplate.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/baseTypes/implementationTemplates/valueImplementationTemplate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -583,47 +624,95 @@
     <entry file="file://$PROJECT_DIR$/lib/sourceModifiers/expressionNameModifier.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/sourceModifiers/expressionNameModifier.spec.js">
+    <entry file="file://$PROJECT_DIR$/lib/baseTypes/implementationTemplates/functionImplementationTemplate.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="151" column="11" selection-start-line="151" selection-start-column="11" selection-end-line="151" selection-end-column="11" />
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/baseTypes/constant/angularConstantDefinition.js">
+    <entry file="file://$PROJECT_DIR$/lib/baseTypes/implementationTemplates/functionDeclarationTemplate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/baseTypes/constant/angularConstantDefinition.spec.js">
+    <entry file="file://$PROJECT_DIR$/lib/sourceModifiers/expressionDeclarationModifier.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/baseTypes/controller/angularControllerDefinition.spec.js">
+    <entry file="file://$PROJECT_DIR$/lib/sourceModifiers/expressionDeclarationModifier.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2546246">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/baseTypes/implementationTemplates/functionDeclarationTemplate.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16098379">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/baseTypes/basicFunctionDefinition.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <caret line="92" column="51" selection-start-line="92" selection-start-column="51" selection-end-line="92" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/baseTypes/controller/angularControllerDefinition.js">
+    <entry file="file://$PROJECT_DIR$/lib/baseTypes/basicFunctionDefinition.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0944057">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/baseTypes/basicValueDefinition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09976247">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/baseTypes/basicValueDefinition.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="110" column="32" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/baseTypes/buildAngularFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/baseTypes/angularDefinitions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21377672">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
           <folding />
         </state>
       </provider>

@@ -8,11 +8,11 @@ components.set('service', (options) => buildAngularFile.buildFunctionFile(option
 components.set('directive', (options) => buildAngularFile.buildFunctionFile(options, 'directive'));
 components.set('constant', (options) => buildAngularFile.buildValueFile(options, 'constant'));
 components.set('value', (options) => buildAngularFile.buildValueFile(options, 'value'));
-components.set('config', (options) => buildAngularFile.buildConfigFile(options, 'config'));
-components.set('run', (options) => buildAngularFile.buildConfigFile(options, 'config'));
-components.set('route', (options) => buildAngularFile.buildConfigFile(options, 'route'));
-components.set('provider', (options) => buildAngularFile.buildProviderFile(options, 'provider'));
-components.set('filter', (options) => buildAngularFile.buildFilterFile(options));
+components.set('config', (options) => buildAngularFile.buildFunctionFile(options, 'config'));
+components.set('run', (options) => buildAngularFile.buildFunctionFile(options, 'config'));
+components.set('route', (options) => buildAngularFile.buildFunctionFile(options, 'route'));
+components.set('provider', (options) => buildAngularFile.buildFunctionFile(options, 'provider'));
+components.set('filter', (options) => buildAngularFile.buildFunctionFile(options, 'filter'));
 
 module.exports = {
     buildFactory: (options) => components.get('factory')(options),
@@ -28,8 +28,9 @@ module.exports = {
     buildFilter: (options) => components.get('filter')(options),
     buildModule: (options) => buildAngularFile.buildModuleFile(options),
     buildModuleExports: (options) => buildAngularFile.buildModuleExportFile(options),
+    buildExternalModuleExports: (options) => buildAngularFile.buildExternalModuleExportFile(options),
     buildComponent: (type, options) => {
-        if(components.has(type)) {
+        if (components.has(type)) {
             return components.get(type)(options);
         }
         throw new Error(`type ${type} not a defined component.`);

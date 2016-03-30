@@ -1,5 +1,6 @@
 'use strict';
 const buildAngularFile = require('./lib/baseTypes/buildAngularFile');
+const codeStyleContext = require('./lib/codeStyling/codeStyleContext');
 
 const components = new Map();
 components.set('factory', (options) => buildAngularFile.buildFunctionFile(options, 'factory'));
@@ -13,8 +14,10 @@ components.set('run', (options) => buildAngularFile.buildFunctionFile(options, '
 components.set('route', (options) => buildAngularFile.buildFunctionFile(options, 'route'));
 components.set('provider', (options) => buildAngularFile.buildFunctionFile(options, 'provider'));
 components.set('filter', (options) => buildAngularFile.buildFunctionFile(options, 'filter'));
+components.set('component', (options) => buildAngularFile.buildValueFile(options, 'component'));
 
 module.exports = {
+    setPreferences: codeStyleContext.setPreferences,
     buildFactory: (options) => components.get('factory')(options),
     buildController: (options) => components.get('controller')(options),
     buildService: (options) => components.get('service')(options),
@@ -26,10 +29,11 @@ module.exports = {
     buildRoute: (options) => components.get('route')(options),
     buildProvider: (options) => components.get('provider')(options),
     buildFilter: (options) => components.get('filter')(options),
+    buildComponent: (options) => components.get('component')(options),
     buildModule: (options) => buildAngularFile.buildModuleFile(options),
     buildModuleExports: (options) => buildAngularFile.buildModuleExportFile(options),
     buildExternalModuleExports: (options) => buildAngularFile.buildExternalModuleExportFile(options),
-    buildComponent: (type, options) => {
+    buildAngularComponent: (type, options) => {
         if (components.has(type)) {
             return components.get(type)(options);
         }
